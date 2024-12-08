@@ -87,6 +87,93 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* BASE STYLES */
+
+header,
+footer {
+}
+
+/* HEADER STYLES */
+header {
+}
+
+header .content-wrapper {
+}
+
+header .img {
+}
+
+header .header-divider {
+}
+
+header nav {
+}
+
+header nav ul {
+}
+
+header nav ul li {
+}
+
+header nav ul li a {
+}
+
+/* END HEADER STYLES */
+
+/* MOBILE STYLES */
+
+main {
+}
+main .hero-area {
+}
+
+aside {
+}
+
+main .content-wrapper {
+}
+
+main .form-description {
+}
+
+.form {
+}
+
+.features {
+}
+
+features .content-wrapper {
+}
+
+.features-item-descr {
+}
+
+.reviews {
+}
+
+reviews .content-wrapper {
+}
+
+.reviews-text {
+}
+
+footer {
+}
+
+footer .content-wrapper {
+}
+
+footer .contact {
+}
+
+footer .social {
+}
+
+footer .copyright {
+}
+
+/* END MAIN */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +347,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
