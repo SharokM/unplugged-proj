@@ -88,83 +88,22 @@ textarea {
    ========================================================================== */
 
 /* BASE STYLES */
-
-html { /*ALREADY AT TOP OF CSS PAGE */
-
-}
-
-body{
-  
-
-}
-
-header,
-footer {
-
-
+.content-wrapper {
+  outline: 3px dotted red;
 }
 
 /* HEADER STYLES */
 header {
   display: flex;
   justify-content: center;
-
-  
 }
 
 header .content-wrapper {
-  display:
-  justify-content: 
-  align-items: 
-}
-
-figure {
-  display: flex;
-  justify-content: center;
-
-
-}
-
-header .img {
-}
-
-header .header-divider {
-}
-
-header nav {
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
-header nav ul li {
-}
-
-header nav ul li a {
-  color: #e2e3e2;
-}
-
-/* END HEADER STYLES */
-
-/* MOBILE STYLES */
-
-main {
-
-}
-
-main .hero-area {
-  display: flex;
-  justify-content: center;
 }
 
 .hero-area {
   display: flex;
   justify-content: center;
-
 }
 
 aside {
@@ -172,20 +111,7 @@ aside {
   justify-content: center;
 }
 
-main .content-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-
-
-}
-
-main .form-description {
-
-}
-
-.form {
+aside .content-wrapper {
 }
 
 .features {
@@ -193,23 +119,9 @@ main .form-description {
   justify-content: center;
 }
 
-features .features-item {
-
-}
-
-.features-item-descr {
-
-}
-
 .reviews {
   display: flex;
   justify-content: center;
-}
-
-reviews .content-wrapper {
-}
-
-.reviews-text {
 }
 
 footer {
@@ -218,51 +130,30 @@ footer {
   align-items: center;
 }
 
-footer .content-wrapper {
-}
-
-footer .contact { text-align: center;
-}
-
-
-.contact-section {
-
-}
-
 footer .social {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+/* ABOUT PAGE  */
 
-.social-icons {
-
-
-}
-footer .social p {
-
-
-}
-
-footer .copyright {
-}
-
-
-.copyright {
-
-}
-
-/* FAQ PAGE  */
-
-faq { 
+.mission {
   display: flex;
   justify-content: center;
+}
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+/* FAQ PAGE  */
+
+faq {
+  display: flex;
+  justify-content: center;
 }
 
 faq .content-wrapper {
-
-  
 }
 
 /* TABLET STYLES SECTION  */
