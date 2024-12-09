@@ -153,64 +153,57 @@ header nav ul li a {
 /* MOBILE STYLES */
 
 main {
-  display: 
-  justify-content: ;
-  align-items: ;
+
 }
 
 main .hero-area {
-  display: 
-  justify-content: ;
-  align-items: ;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-area {
-  display: 
-  justify-content: ;
-  align-items: ;
+  display: flex;
+  justify-content: center;
 
 }
 
 aside {
-  display: 
-  justify-content: ;
-  align-items: ;
+  display: flex;
+  justify-content: center;
 }
 
 main .content-wrapper {
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
 
 }
 
 main .form-description {
-  display: 
-  justify-content: ;
-  align-items: ;
+
 }
 
 .form {
 }
 
 .features {
-  display: 
-  justify-content: ;
-  align-items: ;
+  display: flex;
+  justify-content: center;
 }
 
 features .features-item {
-  display: flex;
-  justify-content: ;
-  align-items: ;
+
 }
 
 .features-item-descr {
-  display: flex;
-  justify-content: ;
-  align-items: ;
+
 }
 
 .reviews {
+  display: flex;
+  justify-content: center;
 }
 
 reviews .content-wrapper {
@@ -226,9 +219,6 @@ footer {
 }
 
 footer .content-wrapper {
-  display: flex;
-  justify-content: ;
-  align-items: ;
 }
 
 footer .contact { text-align: center;
@@ -240,18 +230,17 @@ footer .contact { text-align: center;
 }
 
 footer .social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
 
 }
 footer .social p {
-  display: ;
-  justify-content: ;
-  align-items: ;
+
 
 }
 
@@ -265,11 +254,14 @@ footer .copyright {
 
 /* FAQ PAGE  */
 
-faq {
+faq { 
+  display: flex;
+  justify-content: center;
 
 }
 
-faq .content-wrapper{
+faq .content-wrapper {
+
   
 }
 
