@@ -88,10 +88,13 @@ textarea {
    ========================================================================== */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* BASE STYLES */
 .content-wrapper {
   outline: 3px dotted red;
 =======
+=======
+>>>>>>> gh-pages
 .content-wrapper {
   outline: 3px dotted red;
   width: ;
@@ -101,6 +104,9 @@ textarea {
 body {
   width: 90%;
   margin-left: 5%;
+<<<<<<< HEAD
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 }
 
@@ -112,7 +118,10 @@ header {
 
 header .content-wrapper {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> gh-pages
   /* display: flex;
   justify-content: center;
   align-items: center; 
@@ -152,6 +161,9 @@ header nav ul li a {
 /* MOBILE STYLES */
 
 main {
+<<<<<<< HEAD
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 }
 
@@ -165,9 +177,10 @@ aside {
   justify-content: center;
 }
 
-<<<<<<< HEAD
+
 aside .content-wrapper {
-=======
+}
+
 main .content-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -177,7 +190,7 @@ main .content-wrapper {
 .form-description {
   display: ;
   flex-flow: ;
->>>>>>> gh-pages
+
 }
 
 .features {
@@ -185,8 +198,6 @@ main .content-wrapper {
   justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
 .features-item {
   display: flex;
   justify-content: center;
@@ -197,7 +208,6 @@ main .content-wrapper {
 .features-item-descr {
 }
 
->>>>>>> gh-pages
 .reviews {
   display: flex;
   justify-content: center;
@@ -221,7 +231,7 @@ footer .contact {
 .contact-section {
 }
 
->>>>>>> gh-pages
+
 footer .social {
   display: flex;
   align-items: center;
@@ -229,7 +239,6 @@ footer .social {
 }
 /* ABOUT PAGE  */
 
-<<<<<<< HEAD
 .mission {
   display: flex;
   justify-content: center;
@@ -239,11 +248,13 @@ footer .social {
   display: flex;
   justify-content: center;
 }
-=======
+
 .social-icons {
   display: flex;
   justify-content: center;
+
 }
+
 
 footer .social p {
 }
@@ -255,6 +266,7 @@ footer .copyright {
 }
 
 /* ABOUT PAGE  */
+<<<<<<< HEAD
 
 .mission {
   display: flex;
@@ -262,12 +274,22 @@ footer .copyright {
 }
 
 .contact-section {
+=======
+
+.mission {
   display: flex;
   justify-content: center;
 }
 /* END ABOUT PAGE  */
 
->>>>>>> gh-pages
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+/* END ABOUT PAGE  */
+
+
 /* FAQ PAGE  */
 
 faq {
@@ -276,13 +298,11 @@ faq {
 }
 
 faq .content-wrapper {
-<<<<<<< HEAD
-=======
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: ;
->>>>>>> gh-pages
 }
 
 /* TABLET STYLES SECTION  */
