@@ -115,7 +115,8 @@ header {
 header .content-wrapper {
   /* display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center; 
+  flex-flow: ;*/
 }
 
 figure {
@@ -183,6 +184,7 @@ main .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  flex-flow: ;
 }
 
 .features-item-descr {
@@ -259,6 +261,7 @@ faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-flow: ;
 }
 
 /* TABLET STYLES SECTION  */
