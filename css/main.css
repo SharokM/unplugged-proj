@@ -93,17 +93,9 @@ textarea {
 }
 /* BASE STYLES */
 
-html {
-  /*ALREADY AT TOP OF CSS PAGE */
-}
-
 body {
   width: 90%;
   margin-left: 5%;
-}
-
-header,
-footer {
 }
 
 /* HEADER STYLES */
