@@ -89,15 +89,40 @@ textarea {
 
 /* BASE STYLES */
 
+html { /*ALREADY AT TOP OF CSS PAGE */
+
+}
+
+body{
+  
+
+}
+
 header,
 footer {
+
+
 }
 
 /* HEADER STYLES */
 header {
+  display: flex;
+  justify-content: center;
+
+  
 }
 
 header .content-wrapper {
+  display:
+  justify-content: 
+  align-items: 
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+
+
 }
 
 header .img {
@@ -110,12 +135,17 @@ header nav {
 }
 
 header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li {
 }
 
 header nav ul li a {
+  color: #e2e3e2;
 }
 
 /* END HEADER STYLES */
@@ -123,29 +153,61 @@ header nav ul li a {
 /* MOBILE STYLES */
 
 main {
+  display: 
+  justify-content: ;
+  align-items: ;
 }
+
 main .hero-area {
+  display: 
+  justify-content: ;
+  align-items: ;
+}
+
+.hero-area {
+  display: 
+  justify-content: ;
+  align-items: ;
+
 }
 
 aside {
+  display: 
+  justify-content: ;
+  align-items: ;
 }
 
 main .content-wrapper {
+  display: flex;
+  flex-flow: wrap;
+
 }
 
 main .form-description {
+  display: 
+  justify-content: ;
+  align-items: ;
 }
 
 .form {
 }
 
 .features {
+  display: 
+  justify-content: ;
+  align-items: ;
 }
 
-features .content-wrapper {
+features .features-item {
+  display: flex;
+  justify-content: ;
+  align-items: ;
 }
 
 .features-item-descr {
+  display: flex;
+  justify-content: ;
+  align-items: ;
 }
 
 .reviews {
@@ -158,21 +220,62 @@ reviews .content-wrapper {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer .content-wrapper {
+  display: flex;
+  justify-content: ;
+  align-items: ;
 }
 
-footer .contact {
+footer .contact { text-align: center;
+}
+
+
+.contact-section {
+
 }
 
 footer .social {
 }
 
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+footer .social p {
+  display: ;
+  justify-content: ;
+  align-items: ;
+
+}
+
 footer .copyright {
 }
 
-/* END MAIN */
+
+.copyright {
+
+}
+
+/* FAQ PAGE  */
+
+faq {
+
+}
+
+faq .content-wrapper{
+  
+}
+
+/* TABLET STYLES SECTION  */
+
+/* DESKTOP STYLES SECTION  */
 
 /* ==========================================================================
    Helper classes
