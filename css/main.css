@@ -113,6 +113,9 @@ header {
 }
 
 header .content-wrapper {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 figure {
@@ -176,7 +179,10 @@ main .content-wrapper {
   justify-content: center;
 }
 
-features .features-item {
+.features-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .features-item-descr {
@@ -216,6 +222,8 @@ footer .social {
 }
 
 .social-icons {
+  display: flex;
+  justify-content: center;
 }
 
 footer .social p {
@@ -248,6 +256,9 @@ faq {
 }
 
 faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* TABLET STYLES SECTION  */
