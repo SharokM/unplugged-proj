@@ -87,42 +87,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  outline: 3px dotted red;
+  width: ;
+}
 /* BASE STYLES */
 
-html { /*ALREADY AT TOP OF CSS PAGE */
-
+html {
+  /*ALREADY AT TOP OF CSS PAGE */
 }
 
-body{
-  
-
+body {
+  width: 90%;
+  margin-left: 5%;
 }
 
 header,
 footer {
-
-
 }
 
 /* HEADER STYLES */
 header {
   display: flex;
   justify-content: center;
-
-  
 }
 
 header .content-wrapper {
-  display:
-  justify-content: 
-  align-items: 
 }
 
 figure {
   display: flex;
   justify-content: center;
-
-
 }
 
 header .img {
@@ -153,18 +148,11 @@ header nav ul li a {
 /* MOBILE STYLES */
 
 main {
-
-}
-
-main .hero-area {
-  display: flex;
-  justify-content: center;
 }
 
 .hero-area {
   display: flex;
   justify-content: center;
-
 }
 
 aside {
@@ -176,16 +164,11 @@ main .content-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
-
 }
 
-main .form-description {
-
-}
-
-.form {
+.form-description {
+  display: ;
+  flex-flow: ;
 }
 
 .features {
@@ -194,11 +177,9 @@ main .form-description {
 }
 
 features .features-item {
-
 }
 
 .features-item-descr {
-
 }
 
 .reviews {
@@ -221,12 +202,11 @@ footer {
 footer .content-wrapper {
 }
 
-footer .contact { text-align: center;
+footer .contact {
+  text-align: center;
 }
 
-
 .contact-section {
-
 }
 
 footer .social {
@@ -236,33 +216,38 @@ footer .social {
 }
 
 .social-icons {
-
-
 }
+
 footer .social p {
-
-
 }
 
 footer .copyright {
 }
 
-
 .copyright {
-
 }
+
+/* ABOUT PAGE  */
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+/* END ABOUT PAGE  */
 
 /* FAQ PAGE  */
 
-faq { 
+faq {
   display: flex;
   justify-content: center;
-
 }
 
 faq .content-wrapper {
-
-  
 }
 
 /* TABLET STYLES SECTION  */
