@@ -87,9 +87,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+<<<<<<< HEAD
 /* BASE STYLES */
 .content-wrapper {
   outline: 3px dotted red;
+=======
+.content-wrapper {
+  outline: 3px dotted red;
+  width: ;
+}
+/* BASE STYLES */
+
+body {
+  width: 90%;
+  margin-left: 5%;
+>>>>>>> gh-pages
 }
 
 /* HEADER STYLES */
@@ -99,6 +111,48 @@ header {
 }
 
 header .content-wrapper {
+<<<<<<< HEAD
+=======
+  /* display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: ;*/
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+header .img {
+}
+
+header .header-divider {
+}
+
+header nav {
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+}
+
+header nav ul li a {
+  color: #e2e3e2;
+}
+
+/* END HEADER STYLES */
+
+/* MOBILE STYLES */
+
+main {
+>>>>>>> gh-pages
 }
 
 .hero-area {
@@ -111,7 +165,19 @@ aside {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 aside .content-wrapper {
+=======
+main .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-description {
+  display: ;
+  flex-flow: ;
+>>>>>>> gh-pages
 }
 
 .features {
@@ -119,6 +185,19 @@ aside .content-wrapper {
   justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+.features-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: ;
+}
+
+.features-item-descr {
+}
+
+>>>>>>> gh-pages
 .reviews {
   display: flex;
   justify-content: center;
@@ -130,11 +209,51 @@ footer {
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+footer .content-wrapper {
+}
+
+footer .contact {
+  text-align: center;
+}
+
+.contact-section {
+}
+
+>>>>>>> gh-pages
 footer .social {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+/* ABOUT PAGE  */
+
+<<<<<<< HEAD
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+=======
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social p {
+}
+
+footer .copyright {
+}
+
+.copyright {
+}
+
 /* ABOUT PAGE  */
 
 .mission {
@@ -146,6 +265,9 @@ footer .social {
   display: flex;
   justify-content: center;
 }
+/* END ABOUT PAGE  */
+
+>>>>>>> gh-pages
 /* FAQ PAGE  */
 
 faq {
@@ -154,6 +276,13 @@ faq {
 }
 
 faq .content-wrapper {
+<<<<<<< HEAD
+=======
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: ;
+>>>>>>> gh-pages
 }
 
 /* TABLET STYLES SECTION  */
