@@ -91,7 +91,8 @@ textarea {
 
 .content-wrapper {
   outline: 3px dotted red;
-  width: ;
+  width: 90%;
+  /* width: ; */
 }
 /* BASE STYLES */
 
@@ -104,6 +105,8 @@ body {
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
+  margin: 0;
 }
 
 header .content-wrapper {
@@ -111,6 +114,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center; 
   flex-flow: ;*/
+  margin: 0;
 }
 
 figure {
@@ -122,9 +126,12 @@ header .img {
 }
 
 header .header-divider {
+  /* width: 88%;
+  margin-left: 20px; */
 }
 
 header nav {
+  width: 90%;
 }
 
 header nav ul {
@@ -132,6 +139,8 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  width: 80%;
+  margin-left: 5%;
 }
 
 header nav ul li {
@@ -165,16 +174,18 @@ main .content-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 15px 25px;
 }
 
 .form-description {
-  display: ;
-  flex-flow: ;
+  /* display: ;
+  flex-flow: ; */
 }
 
 .features {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .features-item {
@@ -187,9 +198,23 @@ main .content-wrapper {
 .features-item-descr {
 }
 
+.features .article {
+  width: 55%;
+  margin: 25px 0;
+}
+
+.features p {
+  margin: 0;
+}
+
 .reviews {
   display: flex;
   justify-content: center;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 25px 0;
 }
 
 footer {
@@ -199,13 +224,16 @@ footer {
 }
 
 footer .content-wrapper {
+  width: 60%;
+  margin: 50px 0;
 }
 
 footer .contact {
   text-align: center;
 }
 
-.contact-section {
+footer .contact-section {
+  margin: 0;
 }
 
 footer .social {
@@ -223,6 +251,7 @@ footer .social {
 .contact-section {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .social-icons {
@@ -234,9 +263,11 @@ footer .social p {
 }
 
 footer .copyright {
+  text-align: center;
 }
 
-.copyright {
+.copyright p {
+  margin: 0;
 }
 
 /* ABOUT PAGE  */
