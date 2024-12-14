@@ -262,7 +262,30 @@ faq h2 {
 
 /* TABLET STYLES SECTION  */
 
+@media only screen and (min-width: 786px) {
+  header .content-wrapper {
+  }
+
+  header nav ul {
+  }
+
+  aside .content-wrapper {
+  }
+
+  .features article {
+  }
+
+  .reviews article {
+  }
+
+  .footer-contact {
+  }
+}
+
 /* DESKTOP STYLES SECTION  */
+
+@media only screen and (min-width: 1200px) {
+}
 
 /* ==========================================================================
    Helper classes
