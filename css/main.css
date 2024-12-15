@@ -460,6 +460,8 @@ faq h2 {
   }
 
   /* ---------  ABOUT PAGE --------- */
+  /* ---------  ABOUT PAGE --------- */
+  /* ---------  ABOUT PAGE --------- */
 
   .mission {
     display: ;
@@ -542,6 +544,25 @@ faq h2 {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  /* --------- END ABOUT PAGE --------- */
+
+  /* ---------  FAQ PAGE --------- */
+  /* ---------  FAQ PAGE --------- */
+
+  .faq {
+  }
+
+  .faq .content-wrapper {
+  }
+
+  .faq-content {
+  }
+
+  .faq h2 {
+  }
+
+  /* --------- END FAQ PAGE --------- */
 }
 
 /* DESKTOP STYLES SECTION  */
