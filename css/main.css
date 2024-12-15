@@ -501,9 +501,10 @@ faq h2 {
   }
 
   .footer-contact {
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     width: 100%;
+    /* justify-content: center; */
   }
 
   footer .content-wrapper {
@@ -513,11 +514,15 @@ faq h2 {
   }
 
   footer .contact {
-    width: 40%;
+    width: 44%;
   }
 
   footer .social {
-    width: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 18%;
+    /* margin: 0; */
+    align-items: baseline;
   }
 
   .copyright {
@@ -533,7 +538,9 @@ faq h2 {
 
   .social-icons {
     display: flex;
-    width: 95%;
+    width: 91%;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 
