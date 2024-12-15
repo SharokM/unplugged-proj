@@ -532,16 +532,16 @@ faq .content-wrapper {
   }
 
   /* ---------  FAQ PAGE --------- */
-  .faq {
-  }
-
   .faq .content-wrapper {
-  }
-
-  .faq p {
+    justify-content: space-between;
   }
 
   .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
   }
 }
 
