@@ -441,7 +441,8 @@ faq .content-wrapper {
   aside .content-wrapper {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: end;
+    justify-content: space-between;
+    margin: 50px 0;
     align-content: center;
   }
 
@@ -457,15 +458,16 @@ faq .content-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     width: 49%;
-    flex-basis: auto; /* if not working change to pecentage */
+    flex-basis: 50%;
   }
 
   .features-item {
   }
 
   .features-item-descr {
+    width: 50%;
   }
 
   .reviews h3 {
@@ -482,6 +484,115 @@ faq .content-wrapper {
   .reviews article {
     display: flex;
     justify-content: space-around;
+    /* display: flex;
+    justify-content: space-between;
+    width: 49%; */
+  }
+
+  footer .content-wrapper {
+  }
+
+  .footer-contact {
+  }
+
+  footer .contact {
+  }
+
+  footer .social {
+  }
+
+  .faq-content {
+    margin: ;
+  }
+
+  /* ---------  ABOUT PAGE --------- */
+
+  .mission {
+    display: ;
+    justify-content: ;
+    align-items: ;
+  }
+
+  mission .content-wrapper {
+  }
+
+  .mission-content {
+  }
+
+  .mission-content p {
+  }
+
+  .contact-section .content-wrapper h2 {
+  }
+
+  .contact-section {
+  }
+
+  .contact-content {
+  }
+}
+
+/* DESKTOP STYLES SECTION  */
+
+@media only screen and (min-width: 1200px) {
+  header .content-wrapper {
+    margin: ;
+    display: ;
+    justify-content: ;
+  }
+
+  header nav ul {
+    display: ;
+    justify-content: ;
+    gap: ;
+    /* list-style: none; */
+    /* margin: 20px; */
+  }
+
+  aside .content-wrapper {
+    display: ;
+    flex-wrap: ;
+    justify-content: ;
+    align-content: ;
+  }
+
+  /* main .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 25px;
+    align-content: center;
+  } */
+
+  .features article {
+    display: ;
+    align-items: ;
+    justify-content: ;
+    flex-flow: ;
+    width: %;
+    flex-basis: ;
+  }
+
+  .features-item {
+  }
+
+  .features-item-descr {
+  }
+
+  .reviews h3 {
+    width: ;
+  }
+
+  .reviews .content-wrapper {
+  }
+
+  .reviews-text {
+    width: ;
+  }
+
+  .reviews article {
+    display: ;
+    justify-content: ;
   }
 
   footer .content-wrapper {
@@ -496,11 +607,6 @@ faq .content-wrapper {
   .faq-content {
     margin: ;
   }
-}
-
-/* DESKTOP STYLES SECTION  */
-
-@media only screen and (min-width: 1200px) {
 }
 
 /* ==========================================================================
