@@ -207,7 +207,7 @@ footer p {
 }
 
 footer .social {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-around;
   /* flex-direction: column; */
@@ -375,12 +375,243 @@ faq h2 {
    Modify as content requires.
    ========================================================================== */
 
-/* TABLET STYLES  */
-@media only screen and (min-width: 786px) {
+/* TABLET STYLES SECTION  */
+
+@media screen and (min-width: 768px) {
+  header .content-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    /* list-style: none; */
+    /* margin: 20px; */
+  }
+
+  aside .content-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 50px 0;
+    align-content: center;
+  }
+
+  /* main .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 25px;
+    align-content: center;
+  } */
+
+  .features article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 49%;
+    flex-basis: 50%;
+  }
+
+  .features-item {
+  }
+
+  .features-item-descr {
+    width: 50%;
+  }
+
+  .reviews h3 {
+    width: 90%;
+  }
+
+  .reviews .content-wrapper {
+  }
+
+  .reviews-text {
+    width: 30%;
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-between;
+    width: 49%; */
+  }
+
+  footer .content-wrapper {
+  }
+
+  .footer-contact {
+  }
+
+  footer .contact {
+  }
+
+  footer .social {
+  }
+
+  .faq-content {
+    margin: ;
+  }
+
+  /* ---------  ABOUT PAGE --------- */
+
+  .mission {
+    display: ;
+    justify-content: ;
+    align-items: ;
+  }
+
+  mission .content-wrapper {
+  }
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mission-content p {
+    width: 49%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 7%;
+    /* justify-content: center; */
+  }
+
+  .contact-section {
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-content-address {
+    width: 57%;
+  }
+
+  .footer-contact {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+  }
+
+  footer .contact {
+    width: 40%;
+  }
+
+  footer .social {
+    width: 17%;
+  }
+
+  .copyright {
+  }
+
+  .copyright p {
+  }
+
+  .social h4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons {
+    display: flex;
+    width: 95%;
+  }
 }
 
-/* DESKTOP STYLES  */
-@media only screen and (min-width: 786px) {
+/* DESKTOP STYLES SECTION  */
+
+@media only screen and (min-width: 1200px) {
+  header .content-wrapper {
+    margin: ;
+    display: ;
+    justify-content: ;
+  }
+
+  header nav ul {
+    display: ;
+    justify-content: ;
+    gap: ;
+    /* list-style: none; */
+    /* margin: 20px; */
+  }
+
+  aside .content-wrapper {
+    display: ;
+    flex-wrap: ;
+    justify-content: ;
+    align-content: ;
+  }
+
+  /* main .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 25px;
+    align-content: center;
+  } */
+
+  .features article {
+    display: ;
+    align-items: ;
+    justify-content: ;
+    flex-flow: ;
+    width: %;
+    flex-basis: ;
+  }
+
+  .features-item {
+  }
+
+  .features-item-descr {
+  }
+
+  .reviews h3 {
+    width: ;
+  }
+
+  .reviews .content-wrapper {
+  }
+
+  .reviews-text {
+    width: ;
+  }
+
+  .reviews article {
+    display: ;
+    justify-content: ;
+  }
+
+  footer .content-wrapper {
+  }
+
+  footer .contact {
+  }
+
+  footer .social {
+  }
+
+  .faq-content {
+    margin: ;
+  }
 }
 
 /* ==========================================================================
