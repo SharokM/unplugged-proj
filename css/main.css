@@ -550,16 +550,16 @@ faq h2 {
   /* ---------  FAQ PAGE --------- */
   /* ---------  FAQ PAGE --------- */
 
-  .faq {
-  }
-
   .faq .content-wrapper {
+    justify-content: space-between;
   }
 
   .faq-content {
+    flex-basis: 45%;
   }
 
   .faq h2 {
+    width: 100%;
   }
 
   /* --------- END FAQ PAGE --------- */
