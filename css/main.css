@@ -111,11 +111,11 @@ header {
 }
 
 header .content-wrapper {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; 
-  flex-flow: ;*/
   margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 figure {
@@ -138,10 +138,10 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
-  width: 85%;
+  width: 70%;
   margin-left: 5%;
 }
 
@@ -176,7 +176,8 @@ main .content-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 15px 25px;
+  padding: 15px 18px;
+  width: 90%;
 }
 
 .form-description {
@@ -235,7 +236,7 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 60%;
+  width: 100%;
   margin: 50px 0;
 }
 
@@ -327,6 +328,7 @@ faq .content-wrapper {
   align-items: flex-start;
   flex-flow: row wrap;
   margin: 50px 0 0 0;
+  width: 100%;
 }
 
 .faq-content {
@@ -424,10 +426,16 @@ faq .content-wrapper {
 /* TABLET STYLES SECTION  */
 
 @media screen and (min-width: 768px) {
+  .header {
+  }
+
   header .content-wrapper {
     margin: 0;
     display: flex;
     justify-content: space-evenly;
+    flex: 2;
+    margin-right: 5%;
+    flex-basis: 1;
   }
 
   header nav ul {
@@ -493,12 +501,17 @@ faq .content-wrapper {
   }
 
   .footer-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   footer .contact {
+    width: 48%;
   }
 
   footer .social {
+    width: 48%;
   }
 
   .faq-content {
@@ -514,6 +527,12 @@ faq .content-wrapper {
   }
 
   mission .content-wrapper {
+    /* margin: 0;
+      display: flex;
+      justify-content: space-evenly;
+      flex: 2;
+      margin-right: 5%;
+      flex-basis: 1; */
   }
 
   .mission-content {
@@ -532,16 +551,49 @@ faq .content-wrapper {
   }
 
   /* ---------  FAQ PAGE --------- */
+
+  header .content-wrapper {
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-evenly; */
+    /* flex: 2; */
+  }
+
+  .faq {
+  }
+
   .faq .content-wrapper {
+    display: flex;
     justify-content: space-between;
+    width: 95%;
+    flex-basis: 1;
   }
 
   .faq-content {
-    flex-basis: 45%;
+    flex-basis: 31%;
   }
 
   .faq h2 {
     width: 100%;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .footer-social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
