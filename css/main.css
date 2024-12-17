@@ -106,11 +106,11 @@ header nav {
 }
 
 header nav ul {
-  /* display: flex;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
-  list-style: none; */
+  list-style: none;
 
   display: flex;
   justify-content: center;
@@ -367,20 +367,8 @@ faq h2 {
     width: 100%;
   }
 
-  header nav ul {
-    display: ;
-    justify-content: ;
-    gap: ;
-    width: ;
-    /* list-style: none; */
-    /* margin: 20px; */
-  }
-
   .hero-area .content-wrapper {
     margin: 50px 0;
-  }
-
-  .hero-area {
   }
 
   aside .content-wrapper .form-description,
@@ -389,20 +377,19 @@ faq h2 {
     margin: 0;
   }
 
+  aside .content-wrapper .form {
+    display: flex;
+    width: 45%;
+    margin: 0;
+    flex-flow: column wrap;
+  }
+
   aside .content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin: 50px 0;
   }
-
-  /* main .content-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 15px 25px;
-    align-content: center;
-  } */
 
   .features article {
     display: flex;
@@ -419,24 +406,13 @@ faq h2 {
     width: 50%;
   }
 
-  .reviews h3 {
-    width: ;
-  }
-
   .reviews .content-wrapper {
-  }
-
-  .reviews-text {
-    width: ;
   }
 
   .reviews article div {
     display: flex;
     justify-content: space-between;
     /* width: 49%; */
-  }
-
-  footer .content-wrapper {
   }
 
   .footer-contact {
@@ -447,28 +423,13 @@ faq h2 {
     margin-bottom: 0;
   }
 
-  footer .social {
-  }
-
-  footer .copyright {
-  }
-
   .faq-content {
     margin: ;
   }
 
-  /* ---------  ABOUT PAGE --------- */
-  /* ---------  ABOUT PAGE --------- */
-  /* ---------  ABOUT PAGE --------- */
-
-  .mission {
-    display: ;
-    justify-content: ;
-    align-items: ;
-  }
-
-  mission .content-wrapper {
-  }
+  /* ---  TABLET ABOUT PAGE ---- */
+  /* ---- TABLET ABOUT PAGE ---- */
+  /* ---  TABLET ABOUT PAGE ---- */
 
   .mission .content-wrapper h1 {
     margin-bottom: 20px;
@@ -492,9 +453,6 @@ faq h2 {
     margin-left: 7%;
     width: 80%;
     /* justify-content: center; */
-  }
-
-  .contact-section {
   }
 
   .contact-content {
@@ -533,12 +491,6 @@ faq h2 {
     align-items: baseline;
   }
 
-  .copyright {
-  }
-
-  .copyright p {
-  }
-
   .social h4 {
     display: flex;
     justify-content: center;
@@ -551,10 +503,10 @@ faq h2 {
     justify-content: space-between;
   }
 
-  /* --------- END ABOUT PAGE --------- */
+  /* ----- END TABLET ABOUT PAGE ----- */
 
-  /* ---------  FAQ PAGE --------- */
-  /* ---------  FAQ PAGE --------- */
+  /* -------  FAQ PAGE ------- */
+  /* -------  FAQ PAGE ------- */
 
   .faq .content-wrapper {
     display: flex;
@@ -571,16 +523,18 @@ faq h2 {
     text-align: center;
   }
 
-  /* --------- END FAQ PAGE --------- */
+  /* ------ END FAQ PAGE ------ */
 }
 
-/* DESKTOP STYLES SECTION  */
+/* ------- DESKTOP STYLES SECTION --------- */
+/* ------- DESKTOP STYLES SECTION  --------- */
 
 @media only screen and (min-width: 1200px) {
   header .content-wrapper {
     margin: ;
     display: ;
     justify-content: ;
+    width: 90%;
   }
 
   header nav ul {
@@ -591,65 +545,114 @@ faq h2 {
     /* margin: 20px; */
   }
 
-  aside .content-wrapper {
-    display: ;
-    flex-wrap: ;
-    justify-content: ;
-    align-content: ;
+  aside .content-wrapper .form {
+    display: flex;
+    width: 40%;
+    margin: 0;
+    flex-flow: column wrap;
   }
 
-  /* main .content-wrapper {
+  .features .content-wrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 15px 25px;
     align-content: center;
-  } */
+  }
 
   .features article {
-    display: ;
-    align-items: ;
-    justify-content: ;
-    flex-flow: ;
-    width: %;
-    flex-basis: ;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 33%;
   }
 
   .features-item {
   }
 
   .features-item-descr {
+    width: 47%;
   }
 
-  .reviews h3 {
-    width: ;
+  .features p {
+    text-align: center;
   }
 
-  .reviews .content-wrapper {
-  }
+  /* ------- DESKTOP FAQ PAGE ------- */
+  /* -------  DESKTOP FAQ PAGE ------- */
 
-  .reviews-text {
-    width: ;
-  }
-
-  .reviews article {
+  .faq .content-wrapper {
     display: ;
+    flex-wrap: ;
     justify-content: ;
   }
 
-  footer .content-wrapper {
-  }
-
-  footer .contact {
-  }
-
-  footer .social {
-  }
-
   .faq-content {
-    margin: ;
+    flex-basis: %;
+  }
+
+  .faq h2 {
+    width: %;
+    text-align: ;
+  }
+
+  /* --- END DESKTOP FAQ PAGE --- */
+
+  /* --- DESKTOP ABOUT PAGE --- */
+  /* --- DESKTOP ABOUT PAGE --- */
+  .mission {
+    display: ;
+    justify-content: ;
+    align-items: ;
+  }
+
+  .mission .content-wrapper {
+  }
+
+  .mission .content-wrapper h1 {
+    margin-bottom: 20px;
+  }
+
+  .mission-content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0;
+    width: 80%;
+    /* justify-content: center; */
+  }
+
+  .contact .content-wrapper {
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-content {
+  }
+
+  .contact-content-address {
+    width: 57%;
+  }
+
+  .footer-contact .content-wrapper {
   }
 }
+
+/* --- END DESKTOP ABOUT PAGE --- */
+/* --- END DESKTOP ABOUT PAGE --- */
 
 /* ==========================================================================
    Print styles.
