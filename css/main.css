@@ -180,6 +180,11 @@ main .content-wrapper {
   width: 90%;
 }
 
+.form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .form-description {
   /* display: ;
   flex-flow: ; */
@@ -208,11 +213,13 @@ main .content-wrapper {
 }
 
 .features-item-descr {
+  text-align: center;
 }
 
-.features .article {
+.features article {
   width: 55%;
   margin: 25px 0;
+  text-align: center;
 }
 
 .features p {
