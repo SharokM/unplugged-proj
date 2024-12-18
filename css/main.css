@@ -531,18 +531,10 @@ faq h2 {
 
 @media only screen and (min-width: 1200px) {
   header .content-wrapper {
-    margin: ;
-    display: ;
-    justify-content: ;
     width: 90%;
   }
 
-  header nav ul {
-    display: ;
-    justify-content: ;
-    gap: ;
-    /* list-style: none; */
-    /* margin: 20px; */
+  .hero-area h1 {
   }
 
   aside .content-wrapper .form {
@@ -580,18 +572,12 @@ faq h2 {
   /* ------- DESKTOP FAQ PAGE ------- */
   /* -------  DESKTOP FAQ PAGE ------- */
 
-  .faq .content-wrapper {
-    display: ;
-    flex-wrap: ;
-    justify-content: ;
-  }
-
   .faq-content {
     flex-basis: %;
   }
 
   .faq h2 {
-    width: %;
+    /* width: 100%; */
     text-align: ;
   }
 
@@ -599,14 +585,6 @@ faq h2 {
 
   /* --- DESKTOP ABOUT PAGE --- */
   /* --- DESKTOP ABOUT PAGE --- */
-  .mission {
-    display: ;
-    justify-content: ;
-    align-items: ;
-  }
-
-  .mission .content-wrapper {
-  }
 
   .mission .content-wrapper h1 {
     margin-bottom: 20px;
@@ -632,15 +610,9 @@ faq h2 {
     /* justify-content: center; */
   }
 
-  .contact .content-wrapper {
-  }
-
   .contact-section {
     display: flex;
     justify-content: space-evenly;
-  }
-
-  .contact-content {
   }
 
   .contact-content-address {
