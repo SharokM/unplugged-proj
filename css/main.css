@@ -177,7 +177,7 @@ main .content-wrapper {
   flex-wrap: wrap;
   justify-content: center;
   padding: 15px 18px;
-  width: 90%;
+  width: 100%;
 }
 
 .form {
