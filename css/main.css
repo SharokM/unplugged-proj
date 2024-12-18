@@ -555,9 +555,14 @@ faq .content-wrapper {
   }
 
   .mission-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
   }
 
   .mission-content p {
+    width: 45%;
   }
 
   .contact-section .content-wrapper {
@@ -566,12 +571,17 @@ faq .content-wrapper {
   }
 
   .contact-section .content-wrapper h2 {
+    width: 80%;
   }
 
   .contact-section {
   }
 
   .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
   }
 
   /* ---------  FAQ PAGE --------- */
@@ -625,25 +635,31 @@ faq .content-wrapper {
 /* DESKTOP STYLES SECTION  */
 
 @media only screen and (min-width: 1200px) {
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  .header {
+    padding: 15px;
+  }
+
   header .content-wrapper {
     margin: ;
     display: ;
     justify-content: ;
   }
 
-  header nav ul {
-    display: ;
-    justify-content: ;
-    gap: ;
-    /* list-style: none; */
-    /* margin: 20px; */
+  .hero-area {
+    width: ;
   }
 
   aside .content-wrapper {
-    display: ;
-    flex-wrap: ;
     justify-content: ;
-    align-content: ;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
   }
 
   /* main .content-wrapper {
@@ -654,49 +670,35 @@ faq .content-wrapper {
     align-content: center;
   } */
 
+  .features h2 {
+    width: 90%;
+  }
+
   .features article {
-    display: ;
-    align-items: ;
-    justify-content: ;
-    flex-flow: ;
-    width: %;
-    flex-basis: ;
+    flex-basis: 33%;
   }
 
-  .features-item {
+  .reviews article div {
+    width: 42%;
   }
 
-  .features-item-descr {
-  }
+  /* -- DESKTOP ABOUT PAGE -- */
+  /* -- DESKTOP ABOUT PAGE -- */
 
-  .reviews h3 {
-    width: ;
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
   }
+  /* -- END DESKTOP ABOUT PAGE -- */
 
-  .reviews .content-wrapper {
-  }
+  /* -- DESKTOP FAQ PAGE -- */
+  /* -- DESKTOP FAQ PAGE -- */
 
-  .reviews-text {
-    width: ;
+  .faq h2 {
+    width: 100%;
+    text-align: center;
   }
-
-  .reviews article {
-    display: ;
-    justify-content: ;
-  }
-
-  footer .content-wrapper {
-  }
-
-  footer .contact {
-  }
-
-  footer .social {
-  }
-
-  .faq-content {
-    margin: ;
-  }
+  /* -- END DESKTOP FAQ PAGE -- */
 }
 
 /* ==========================================================================
