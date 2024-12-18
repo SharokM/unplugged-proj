@@ -177,7 +177,7 @@ main .content-wrapper {
   flex-wrap: wrap;
   justify-content: center;
   padding: 15px 18px;
-  width: 100%;
+  width: 90%;
 }
 
 .form {
@@ -433,16 +433,24 @@ faq .content-wrapper {
 /* TABLET STYLES SECTION  */
 
 @media screen and (min-width: 768px) {
+  /* test  */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
   .header {
+    padding: 33px 0;
   }
 
+  /* test  */
   header .content-wrapper {
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: 2;
     margin-right: 5%;
     flex-basis: 1;
+    width: 100%;
   }
 
   header nav ul {
@@ -476,6 +484,10 @@ faq .content-wrapper {
     flex-flow: column wrap;
     width: 49%;
     flex-basis: 50%;
+  }
+
+  .form {
+    width: 40%;
   }
 
   .features-item {
@@ -548,6 +560,11 @@ faq .content-wrapper {
   .mission-content p {
   }
 
+  .contact-section .content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .contact-section .content-wrapper h2 {
   }
 
@@ -563,11 +580,12 @@ faq .content-wrapper {
     margin: 0;
     display: flex;
     flex-flow: row;
-    /* justify-content: space-evenly; */
-    /* flex: 2; */
+    justify-content: space-evenly;
   }
 
   .faq {
+    display: flex;
+    justify-content: center;
   }
 
   .faq .content-wrapper {
@@ -598,7 +616,7 @@ faq .content-wrapper {
   }
 
   .footer-contact {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-evenly;
   }
