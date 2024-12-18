@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -87,7 +87,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* BASE STYLES */
+/* GENERAL STYLES */
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 43px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 18px;
+}
+
+img {
+}
+
+figure {
+}
+
+address {
+  font-style: normal;
+}
 
 .content-wrapper {
   outline: 3px dotted red;
@@ -133,7 +185,8 @@ header .header-divider {
 }
 
 header nav {
-  width: 80%%;
+  font-size: 1.125em;
+  font-weight: bold;
 }
 
 header nav ul {
@@ -154,7 +207,7 @@ header nav ul li a {
 
 /* END HEADER STYLES */
 
-/* MOBILE STYLES */
+/* MAIN STYLES */
 
 main {
 }
@@ -167,6 +220,7 @@ main {
 aside {
   display: flex;
   justify-content: center;
+  /* text-align: center; */
 }
 
 aside .content-wrapper {
@@ -178,6 +232,7 @@ main .content-wrapper {
   justify-content: center;
   padding: 15px 18px;
   width: 90%;
+  align-items: baseline;
 }
 
 .form {
@@ -209,7 +264,6 @@ main .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  flex-flow: ;
 }
 
 .features-item-descr {
@@ -231,6 +285,10 @@ main .content-wrapper {
   justify-content: center;
 }
 
+.reviews h2 {
+  /* line-height: 30px; */
+}
+
 .reviews h3 {
   width: 55%;
   margin: 25px 0;
@@ -245,11 +303,6 @@ footer {
 footer .content-wrapper {
   width: 100%;
   margin: 50px 0;
-}
-
-footer .contact {
-  text-align: center;
-  margin: ;
 }
 
 footer .contact-section {
@@ -327,6 +380,7 @@ faq {
 
 .faq h2 {
   margin: 40px 0;
+  line-height: 40px;
 }
 
 faq .content-wrapper {
@@ -340,6 +394,10 @@ faq .content-wrapper {
 
 .faq-content {
   margin: 50px;
+}
+
+.faq-content h4 {
+  line-height: 39px;
 }
 
 /* ==========================================================================
@@ -433,7 +491,21 @@ faq .content-wrapper {
 /* TABLET STYLES SECTION  */
 
 @media screen and (min-width: 768px) {
-  /* test  */
+  h1 {
+    font-size: 3em;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -442,7 +514,6 @@ faq .content-wrapper {
     padding: 33px 0;
   }
 
-  /* test  */
   header .content-wrapper {
     margin: 0;
     display: flex;
@@ -468,14 +539,6 @@ faq .content-wrapper {
     margin: 50px 0;
     align-content: center;
   }
-
-  /* main .content-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 15px 25px;
-    align-content: center;
-  } */
 
   .features article {
     display: flex;
@@ -527,6 +590,10 @@ faq .content-wrapper {
 
   footer .contact {
     width: 48%;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
   }
 
   footer .social {
@@ -613,6 +680,12 @@ faq .content-wrapper {
     width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 15.75px;
+  }
+
   footer .content-wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -635,6 +708,33 @@ faq .content-wrapper {
 /* DESKTOP STYLES SECTION  */
 
 @media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  .mission h2,
+  .faq h2 {
+    font-size: ;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: ;
+  }
+
+  p {
+    font-size: ;
+  }
+
   .content-wrapper {
     max-width: 960px;
   }
@@ -685,6 +785,9 @@ faq .content-wrapper {
   /* -- DESKTOP ABOUT PAGE -- */
   /* -- DESKTOP ABOUT PAGE -- */
 
+  .mission h2 {
+    font-size: 3em;
+  }
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
@@ -697,6 +800,17 @@ faq .content-wrapper {
   .faq h2 {
     width: 100%;
     text-align: center;
+    font-size: 3em;
+  }
+
+  .faq h4 {
+    font-size: 1.125em;
+    line-height: 18px;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 24px;
   }
   /* -- END DESKTOP FAQ PAGE -- */
 }
