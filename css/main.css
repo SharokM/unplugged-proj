@@ -133,6 +133,7 @@ p {
 }
 
 img {
+  width: 100%;
 }
 
 figure {
@@ -178,6 +179,11 @@ figure {
 }
 
 header .img {
+  width: 100%;
+}
+
+header figure {
+  margin: 0;
 }
 
 header .header-divider {
@@ -218,6 +224,12 @@ main {
 .hero-area {
   display: flex;
   justify-content: center;
+}
+
+.hero-area figure {
+}
+
+.hero-area img {
 }
 
 aside {
@@ -297,6 +309,12 @@ main .content-wrapper {
 .reviews h3 {
   width: 55%;
   margin: 25px 0;
+}
+
+.reviews img {
+}
+
+.reviews article {
 }
 
 footer {
@@ -739,6 +757,9 @@ input[type="button"] {
     display: flex;
     justify-content: space-evenly;
   }
+
+  img {
+  }
 }
 
 /* DESKTOP STYLES SECTION  */
@@ -847,6 +868,9 @@ input[type="button"] {
   p {
     font-size: 1.125em;
     line-height: 24px;
+  }
+
+  img {
   }
   /* -- END DESKTOP FAQ PAGE -- */
 }
