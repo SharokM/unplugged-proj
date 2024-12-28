@@ -241,9 +241,8 @@ footer .copyright {
 /* MOBILE STYLES HOMEPAGE  */
 
 .hero-area {
-  background: url("../img/unplugged-retreat.jpg");
+  background: url('../img/unplugged-retreat.jpg') center;
   background-size: cover;
-  background-position: center;
   min-height: 500px;
   display: flex;
   justify-content: center;
