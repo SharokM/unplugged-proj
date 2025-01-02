@@ -269,8 +269,8 @@ aside {
 
 aside .form {
   display: flex;
-  flex-flow: column wrap;
-  margin-top: 30px;
+  flex-flow: wrap;
+  margin-top: 10px;
 }
 
 main .content-wrapper {
@@ -558,7 +558,7 @@ faq .content-wrapper {
   }
 
   header figure {
-    width: 30%;
+    width: 55%;
   }
 
   header nav { 
@@ -610,6 +610,7 @@ faq .content-wrapper {
 
   .features h2 {
     margin-bottom: 20px;
+    width: 95%;
   }
 
   .features article {
@@ -643,7 +644,7 @@ faq .content-wrapper {
   }
 
   .reviews h2 {
-    width: 85%;
+    width: 95%;
   }
 
   .reviews article figure,
@@ -659,7 +660,7 @@ faq .content-wrapper {
   }
 
   .reviews-text {
-    width: 30%;
+    width: 90%;
   }
 
   /* FOOTER   */
@@ -751,7 +752,7 @@ faq .content-wrapper {
   .faq h4,
   .faq p {
     font-size: 0.875em;
-    line-height: 15.75px;
+    line-height: 19.75px;
   }
 
 
