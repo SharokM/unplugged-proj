@@ -94,7 +94,7 @@ body {
   font-family: "Roboto", serif;
   font-size: 1em;
   text-align: left;
-  color: #e2e3ed;
+  color: cornsilk;
 }
 
 ul,
@@ -241,7 +241,7 @@ footer .copyright {
 /* MOBILE STYLES HOMEPAGE  */
 
 .hero-area {
-  background: url('../img/unplugged-retreat.jpg') center;
+  background: url('../img/unplugged-windingpath.jpeg') center;
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -295,7 +295,7 @@ input [type="button"] {
 /* FEATURES  */
 
 .features {
-  background: url("../img/unplugged-retreat-features.jpg");
+  background: url("../img/dark-green-cloud-digital-data-illuminated-white-light-minimalist-black-background-345432515.webp");
   background-size: cover;
   background-position: center;
   display: flex;
