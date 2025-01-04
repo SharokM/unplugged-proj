@@ -235,6 +235,12 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+  font-size: 3.25em;
+    margin-bottom: 20px;
+
+}
+
 footer .copyright {
   margin: 20px 0;
 }
