@@ -234,6 +234,9 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* gap: 40px; */
+  width: 30%;
+  color: darkgreen;
 }
 
 footer .copyright {
@@ -399,6 +402,7 @@ footer .copyright {
 .social-icons {
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 .copyright p {
