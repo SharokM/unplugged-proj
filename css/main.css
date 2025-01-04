@@ -236,7 +236,7 @@ footer .social-icons p {
 }
 
 footer .social-icons i {
-  font-size: 3.25em;
+  font-size: 2.25em;
     margin-bottom: 20px;
 
 }
@@ -648,16 +648,18 @@ faq .content-wrapper {
 
   footer .content-wrapper {
     width: 65%;
+    display: flex;
+    justify-content: space-between;
   }
 
   footer .footer-contact {
     width: 83%;
     justify-content: center;
     display: flex;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    flex-direction: row;
-    align-items: center;
+  }
+
+  footer .social-icons i {
+    
   }
 
   footer .contact {
