@@ -729,8 +729,8 @@ faq .content-wrapper {
   /* -------  FAQ PAGE ------- */
 
   .faq .content-wrapper {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -740,7 +740,7 @@ faq .content-wrapper {
   }
 
   .faq-content {
-    /* flex-basis: 45%; */
+    flex-basis: 45%;
   }
 
   .faq h4,
