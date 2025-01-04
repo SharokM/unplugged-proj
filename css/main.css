@@ -332,6 +332,11 @@ input [type="button"] {
   align-items: center;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+    color: gold;
+}
 /* REVIEWS  */
 
 .reviews {
@@ -621,12 +626,16 @@ faq .content-wrapper {
 
   .reviews article figure,
   .reviews article div {
-    width: 49%;
+    width: 46%;
   }
 
   .reviews h3 {
     width: 75%;
     margin: 0;
+  }
+
+  img {
+    width: 50%;
   }
 
   /* FOOTER  */
@@ -692,6 +701,10 @@ faq .content-wrapper {
 
   .contact-content h4 {
     font-size: 1.5em;
+  }
+
+  .contact-content {
+    display: flex;
   }
 
   /* .contact-content {
@@ -861,6 +874,10 @@ faq .content-wrapper {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .contact-content {
+    display: flex;
   }
 
   /* .contact-section .content-wrapper h2 {
