@@ -292,6 +292,10 @@ main .content-wrapper {
   align-items: baseline;
 }
 
+.contact-section .content-wrapper {
+  justify-content: left;
+}
+
 /* FEATURES  */
 
 .features {
