@@ -279,7 +279,9 @@ aside {
 } */
 
 .form-description .sub-form {
-  width: 64%;
+    /* width: 64%; */
+    display: flex;
+    flex-flow: column;
 
 }
 
