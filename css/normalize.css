@@ -119,7 +119,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  background: #2a423a;
+  background: rgb(111, 189, 111);
 }
 
 button::-moz-focus-inner,
