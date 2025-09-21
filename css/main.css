@@ -583,12 +583,13 @@ faq .content-wrapper {
   }
 
   .header {
-    padding: 33px 0;
+    /* padding: 33px 0; */
   }
 
   header .content-wrapper {
-    justify-content: space-between;
-    width: 100%;
+
+    flex-flow: nowrap;
+
   }
 
   header figure {
@@ -644,6 +645,7 @@ faq .content-wrapper {
   .features h2 {
     margin-bottom: 20px;
     width: 95%;
+    text-align: center;
   }
 
   .features article {
@@ -851,7 +853,7 @@ faq .content-wrapper {
   /* ASIDE  */
 
   aside .content-wrapper {
-    justify-content: space-around;
+    /* justify-content: space-around; */
   }
 
   aside .content-wrapper .form-description,
