@@ -587,8 +587,11 @@ faq .content-wrapper {
   }
 
   header .content-wrapper {
+    justify-content: space-between;
+    width: 100%;
     flex-flow: nowrap;
-  }
+}
+
 
   header figure {
     width: 90%;
