@@ -112,7 +112,17 @@ a {
   text-decoration: none;
 }
 
+h1 {
 
+}
+
+h2 {
+
+}
+
+h3, h4 {
+
+}
 
 .mission h1, h2 {
   font-family: "Poppins", sans-serif;
@@ -133,7 +143,9 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 76%;
+  margin-left: 33px;
+  /* width: 100%; */
 }
 
 figure {
@@ -166,14 +178,14 @@ header .content-wrapper {
 }
 
 header figure {
-  margin: 10%;
+  margin: 5%;
 }
 
 header .header-divider {
   background: #3a3a3a;
   width: 100%;
   height: 1px;
-  margin: 10px 0 20px 0;
+  margin: 0px 0px 5px 0px;
 }
 
 header nav {
@@ -251,9 +263,9 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  font-size: 2.25em;
+  font-size: 36px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 43px;
 }
 
 /* ASIDE  */
@@ -266,8 +278,9 @@ aside {
 }
 
 .form-description .sub-form {
-    display: flex;
-    flex-flow: column;
+  display: flex;
+  width: -webkit-fill-available;
+  flex-flow: column;
 
 }
 
@@ -329,7 +342,7 @@ main .content-wrapper {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  color: darkgreen;
+  color: #ccaa8e;
 
 }
 
@@ -417,7 +430,7 @@ footer .copyright {
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .copyright p {
@@ -451,12 +464,29 @@ footer .copyright {
   background: #527158;
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .faq h2 {
   margin: 40px 0;
   line-height: 40px;
+  font-size: x-large;
+}
+
+.faq h4 {
+/* code  */
+}
+
+.faq p {
+  /* code  */
+}
+
+faq p {
+  /* code  */
+}
+
+faq h4 {
+  /* code   */
 }
 
 faq .content-wrapper {
@@ -469,7 +499,7 @@ faq .content-wrapper {
 }
 
 .faq-content {
-  margin: 50px;
+  margin-bottom: 50px;
 }
 
 .faq-content h4 {
@@ -571,6 +601,11 @@ faq .content-wrapper {
     margin: 100px 0;
   }
 
+  main .content-wrapper {
+    width: 100%;
+
+  }
+
 
   h2 {
     font-size: 2.25em;
@@ -583,7 +618,7 @@ faq .content-wrapper {
   }
 
   .header {
-    /* padding: 33px 0; */
+    padding: 0;
   }
 
   header .content-wrapper {
@@ -712,7 +747,7 @@ faq .content-wrapper {
    footer .content-wrapper {
     display: flex;
     width: 100%;
-    gap: 100px;
+    gap: 171px;
     justify-content: space-between;
     align-items: start;
   }
@@ -835,7 +870,8 @@ faq .content-wrapper {
 
   h3,
   h4 {
-    font-size: 1.875em;
+    font-size: 30px;
+    /* color: wheat; */
   }
 
 
@@ -848,13 +884,21 @@ faq .content-wrapper {
   /* HERO  */
   .hero-area h1 {
     width: 80%;
-    font-size: 3.75em;
+    font-size: 60px;
+    /* color: wheat; */
+  }
+
+  header nav ul li a:hover {
+    color: #ffa100f2;
   }
 
   /* ASIDE  */
 
   aside .content-wrapper {
-    /* justify-content: space-around; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 30px 0;
   }
 
   aside .content-wrapper .form-description,
@@ -869,12 +913,17 @@ faq .content-wrapper {
   /* FEATURES  */
 
   .features h2 {
-    width: 90%;
+    width: 100%;
+    font-size: 36px;
+    /* color: wheat;   */
   }
 
   .features article {
     flex-basis: 33%;
   }
+
+  .features i {
+    color: #ffa100f2;  }
 
   /* REVIEWS  */
 
@@ -883,7 +932,7 @@ faq .content-wrapper {
   }
 
   .reviews h2 {
-    /* width: 42%; */
+    /* color: wheat; */
   }
 
   footer h4 {
@@ -892,6 +941,14 @@ faq .content-wrapper {
 
   .footer-contact {
     width: 60%;
+  }
+
+  footer .content-wrapper {
+    justify-content: space-between;
+  }
+
+  footer .social-icons a {
+    color: #ffa100f2;
   }
 
   /* -- DESKTOP ABOUT PAGE -- */

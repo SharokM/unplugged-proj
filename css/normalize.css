@@ -104,13 +104,12 @@ textarea {
 
 button,
 input {
-  /* 1 */
+  margin-bottom: 10px;
   overflow: visible;
 }
 
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
