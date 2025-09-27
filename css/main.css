@@ -143,9 +143,9 @@ p {
 }
 
 img {
-  width: 76%;
-  margin-left: 33px;
-  /* width: 100%; */
+  /* width: 76%;
+  margin-left: 33px; */
+  width: 100%;
 }
 
 figure {
@@ -870,7 +870,7 @@ faq .content-wrapper {
 
   h3,
   h4 {
-    font-size: 30px;
+    font-size: 40px;
     /* color: wheat; */
   }
 

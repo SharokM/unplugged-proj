@@ -119,6 +119,7 @@ button,
 [type="submit"] {
   -webkit-appearance: button;
   background: rgb(189 169 111);
+  height: 50px;
 }
 
 button::-moz-focus-inner,
