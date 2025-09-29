@@ -136,7 +136,7 @@ header figure {
 }
 
 header .header-divider {
-  background: #3a3a3a;
+  background: transparent;
   width: 100%;
   height: 1px;
   margin: 0px 0px 5px 0px;
@@ -194,7 +194,7 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
   width: 30%;
-  color: darkgreen;
+  color: rgb(29, 82, 29);
 }
 
 footer .copyright {
@@ -721,7 +721,7 @@ faq .content-wrapper {
   .faq .content-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 70%;
     flex-basis: 1;
   }
 
@@ -731,8 +731,13 @@ faq .content-wrapper {
   }
 
   .faq-content {
-    width: 34%;
+    width: 45%;
     margin: 0;
+    padding-bottom: 30px;
+  }
+
+  .content-wrapper {
+    /* code  */
   }
 
   .faq h2 {
@@ -816,7 +821,8 @@ faq .content-wrapper {
   }
 
   .features i {
-    color: #ffa100f2;  }
+    /* color: #ffa100f2;   */
+  }
 
   /* REVIEWS  */
 
@@ -834,10 +840,11 @@ faq .content-wrapper {
 
   footer .content-wrapper {
     justify-content: space-between;
+    padding-top: 30px;
   }
 
   footer .social-icons a {
-    color: #ffa100f2;
+    /* color: yellow; */
   }
 
   /* -- DESKTOP ABOUT PAGE -- */
@@ -875,7 +882,6 @@ faq .content-wrapper {
 
   .faq h2 {
     width: 100%;
-    text-align: center;
     font-size: 3em;
   }
 
