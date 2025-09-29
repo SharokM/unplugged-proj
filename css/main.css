@@ -1,11 +1,3 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -17,15 +9,6 @@ html {
   line-height: 1.4;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -37,9 +20,6 @@ html {
   text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
 
 hr {
   display: block;
@@ -50,12 +30,6 @@ hr {
   padding: 0;
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
 audio,
 canvas,
 iframe,
@@ -65,9 +39,6 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
 
 fieldset {
   border: 0;
@@ -75,9 +46,6 @@ fieldset {
   padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
 
 textarea {
   resize: vertical;
@@ -112,18 +80,6 @@ a {
   text-decoration: none;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3, h4 {
-
-}
-
 .mission h1, h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
@@ -143,8 +99,6 @@ p {
 }
 
 img {
-  /* width: 76%;
-  margin-left: 33px; */
   width: 100%;
 }
 
@@ -200,7 +154,6 @@ header nav ul {
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
-  /* width: 70%; */
   gap: 25px;
   margin-left: 5%;
 }
@@ -240,7 +193,6 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 40px; */
   width: 30%;
   color: darkgreen;
 }
@@ -456,7 +408,7 @@ footer .copyright {
 
 
 /* END ABOUT PAGE  */
-/* END ABOUT PAGE  */
+
 
 /* FAQ PAGE  */
 
@@ -494,23 +446,12 @@ faq .content-wrapper {
    Helper classes
    ========================================================================== */
 
-/*
- * Hide visually and from screen readers
- */
 
 .hidden,
 [hidden] {
   display: none !important;
 }
 
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
 
 .sr-only {
   border: 0;
@@ -524,11 +465,6 @@ faq .content-wrapper {
   width: 1px;
 }
 
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -541,25 +477,12 @@ faq .content-wrapper {
   width: auto;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
+
 
 .invisible {
   visibility: hidden;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 
 .clearfix::before,
 .clearfix::after {
@@ -587,9 +510,7 @@ faq .content-wrapper {
 
   main .content-wrapper {
     width: 100%;
-
   }
-
 
   h2 {
     font-size: 2.25em;
@@ -622,7 +543,6 @@ faq .content-wrapper {
 
   header nav ul {
     display: flex;
-    /* justify-content: end; */
     gap: 30px;
     width: 90%;
   }
@@ -708,9 +628,6 @@ faq .content-wrapper {
     width: 90%;
   }
 
-  .reviews .content-wrapper {
-  }
-
   .reviews-text {
     width: 90%;
   }
@@ -723,7 +640,6 @@ faq .content-wrapper {
   img {
     width: 50%;
     height: auto;
-
   }
 
   /* FOOTER   */
@@ -759,7 +675,6 @@ faq .content-wrapper {
   footer .copyright {
     width: 100%;
   }
-
 
   /* ---------  ABOUT PAGE --------- */
 
@@ -816,10 +731,8 @@ faq .content-wrapper {
   }
 
   .faq-content {
-    /* flex-basis: 31%; */
-        /* flex-basis: 31%; */
-        width: 34%;
-        margin: 0;
+    width: 34%;
+    margin: 0;
   }
 
   .faq h2 {
@@ -831,7 +744,6 @@ faq .content-wrapper {
     font-size: 0.875em;
     line-height: 19.75px;
   }
-
 
 
 /* DESKTOP STYLES SECTION  */
@@ -855,7 +767,6 @@ faq .content-wrapper {
   h3,
   h4 {
     font-size: 40px;
-    /* color: wheat; */
   }
 
 
@@ -869,7 +780,6 @@ faq .content-wrapper {
   .hero-area h1 {
     width: 80%;
     font-size: 60px;
-    /* color: wheat; */
   }
 
   header nav ul li a:hover {
@@ -899,7 +809,6 @@ faq .content-wrapper {
   .features h2 {
     width: 100%;
     font-size: 36px;
-    /* color: wheat;   */
   }
 
   .features article {
@@ -913,10 +822,6 @@ faq .content-wrapper {
 
   .reviews article div {
     width: 42%;
-  }
-
-  .reviews h2 {
-    /* color: wheat; */
   }
 
   footer h4 {
@@ -967,7 +872,6 @@ faq .content-wrapper {
   /* -- END DESKTOP ABOUT PAGE -- */
 
   /* -- DESKTOP FAQ PAGE -- */
-  /* -- DESKTOP FAQ PAGE -- */
 
   .faq h2 {
     width: 100%;
@@ -997,7 +901,6 @@ faq .content-wrapper {
   *::after {
     background: #fff !important;
     color: #000 !important;
-    /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
